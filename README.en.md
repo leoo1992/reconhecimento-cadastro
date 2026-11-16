@@ -1,10 +1,14 @@
-# Face Registration and Recognition
+# reconhecimento-cadastro
 
-A study project related to registering people and facial recognition. The repository contains the application and its interface files; review the source structure for the available modules.
+A study repository named around face registration and recognition. The current branch contains configuration files, repository checks, and maintenance tests, but no runnable application implementation.
 
-## Stack
-- JavaScript
-- HTML and CSS
+## Stack and tooling
+- Node.js for test scripts
+- JavaScript / ES modules for automated checks
 
 ## Run
-Review the project's entry files and open the interface in a browser. The repository does not document an npm start command.
+There is no application or start command configured in this branch. Repository maintenance tests can be run with Node.js's built-in test runner:
+
+```bash
+node --test tests/*.test.mjs
+```
